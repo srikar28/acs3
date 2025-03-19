@@ -2,7 +2,10 @@
   "extends": "./common.tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist/dist-esm",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
   },
   "typeRoots": ["./node_modules/@types"],
   "include": ["src/**/*", "src/assets/assets.d.ts"],
