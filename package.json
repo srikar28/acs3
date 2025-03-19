@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Azure-Samples/communication-services-web-calling-hero/issues"
   },
-  "homepage": "https://github.com/Azure-Samples/communication-services-web-calling-hero#readme"
+  "homepage": "https://github.com/Azure-Samples/communication-services-web-calling-hero#readme",
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
 }
